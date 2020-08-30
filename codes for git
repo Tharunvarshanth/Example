@@ -1,5 +1,6 @@
 …or create a new repository on the command line
 
+
 echo "# Example1" >> README.md
 git init
 git add README.md
@@ -12,3 +13,12 @@ git push -u origin master
 
 git remote add origin https://github.com/Tharunvarshanth/Example1.git
 git push -u origin master
+
+if i already have local repositary and updated
+
+git init some times no need
+git add newfile.txt/git add --ignore-removal . 
+git commit -m "first commit"
+git remote add origin https://github.com/Tharunvarshanth/Example1.git
+git push -u origin master
+
